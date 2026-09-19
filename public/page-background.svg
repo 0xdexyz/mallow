@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1760 896" width="1760" height="896">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eceafc"/>
+      <stop offset="55%" stop-color="#f1eefb"/>
+      <stop offset="100%" stop-color="#ede8f9"/>
+    </linearGradient>
+    <radialGradient id="blobPurpleTL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a99bee"/>
+      <stop offset="55%" stop-color="#c3b6f2"/>
+      <stop offset="100%" stop-color="#c3b6f2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobLavenderTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d9d2f7"/>
+      <stop offset="60%" stop-color="#e3ddf9"/>
+      <stop offset="100%" stop-color="#e3ddf9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobPinkBR" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#f7cfe0"/>
+      <stop offset="45%" stop-color="#f0c9a8"/>
+      <stop offset="100%" stop-color="#c9baf0"/>
+    </radialGradient>
+    <radialGradient id="blobPinkBL" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#f8d6e2"/>
+      <stop offset="55%" stop-color="#f2cda0"/>
+      <stop offset="100%" stop-color="#f2cda0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dotPurple" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#bcaef0"/>
+      <stop offset="100%" stop-color="#a294e0"/>
+    </radialGradient>
+    <radialGradient id="dotPink" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#f3c6d8"/>
+      <stop offset="100%" stop-color="#e2a9c2"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <filter id="softer" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+  </defs>
+
+  <rect width="1760" height="896" fill="url(#base)"/>
+
+  <circle cx="140" cy="30" r="330" fill="url(#blobPurpleTL)" filter="url(#soft)"/>
+  <circle cx="1540" cy="60" r="260" fill="url(#blobLavenderTR)" filter="url(#soft)"/>
+
+  <path d="M 880 896 C 1000 700 1180 640 1340 700 C 1480 750 1560 650 1760 560 L 1760 896 Z"
+        fill="url(#blobPinkBR)" filter="url(#softer)" opacity="0.9"/>
+  <circle cx="60" cy="760" r="230" fill="url(#blobPinkBL)" filter="url(#soft)" opacity="0.85"/>
+  <circle cx="330" cy="900" r="200" fill="url(#blobPinkBL)" filter="url(#soft)" opacity="0.6"/>
+
+  <g fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.55" stroke-linecap="round">
+    <path d="M -20 250 C 300 120 520 480 900 260 C 1180 100 1400 260 1780 40"/>
+    <path d="M -20 40 C 220 200 380 40 620 140"/>
+  </g>
+
+  <circle cx="88" cy="392" r="18" fill="url(#dotPurple)" opacity="0.75"/>
+  <circle cx="1452" cy="512" r="24" fill="url(#dotPink)" opacity="0.75"/>
+</svg>
